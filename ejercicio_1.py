@@ -25,9 +25,11 @@ while True:
             "contraseña": contraseña
         }
         usuario.append(perfil)
-        print(perfil)
+        
 
     elif opc == 3:
-        pass
+        x = input('ingrese correo a eliminar')
+        for x in(len(correo)):
+            print(correo)
     else:
         break
